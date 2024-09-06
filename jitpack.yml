@@ -1,0 +1,2 @@
+install:
+  mvn install:install-file -Dfile=libportal-android.aar -DgroupId=io.nunchuk.android -DartifactId=libportal -Dversion=1.1.55 -Dpackaging=aar -DpomFile=pom.xml
